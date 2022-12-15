@@ -16,7 +16,7 @@ free(bus.content);
 free_stack(*head);
 exit(EXIT_FAILURE);
 }
-h = *head
+h = *head;
 *head = h->next;
 free(h);
 }
